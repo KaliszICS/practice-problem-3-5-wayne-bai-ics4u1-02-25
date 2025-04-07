@@ -14,7 +14,7 @@ void MathPathsTest4() {
   String[][] maze = {
     {"S", "F"},
   };
-    assertEquals(1, (int)method.invoke(null, new Object[]maze));
+    assertEquals(1, (int)method.invoke(null, new Object[]{maze}));
 }
 
 
@@ -39,7 +39,7 @@ void MathPathsTest3() {
     {"", "", "", ""},
     {"S", "", "", ""},
   };
-    assertEquals(20, (int)method.invoke(null, new Object[]maze));
+    assertEquals(20, (int)method.invoke(null, new Object[]{maze}));
 }
 
 
@@ -64,7 +64,7 @@ void MazePathsTest2() {
     {"", "", "", "", ""},
     {"S", "", "", "", ""},
   };
-    assertEquals(6, (int)method.invoke(null, new Object[]maze));
+    assertEquals(6, (int)method.invoke(null, new Object[]{maze}));
 }
 
 
@@ -89,7 +89,7 @@ void MazePathsTest1() {
     {"", "", "", "F", ""},
     {"S", "", "", "", ""},
   };
-    assertEquals(4, (int)method.invoke(null, new Object[]maze));
+    assertEquals(4, (int)method.invoke(null, new Object[]{maze}));
 }
 
 
@@ -111,7 +111,7 @@ void SearchMazeMovesTest4() {
   String[][] maze = {
     {"S", "F"},
   };
-    assertEquals(1, (int)method.invoke(null, new Object[]maze));
+    assertEquals(1, (int)method.invoke(null, new Object[]{maze}));
 }
 
 
@@ -136,7 +136,7 @@ void SearchMazeMovesTest3() {
     {"", "", "", "", ""},
     {"S", "", "", "", ""},
   };
-    assertEquals(5, (int)method.invoke(null, new Object[]maze));
+    assertEquals(5, (int)method.invoke(null, new Object[]{maze}));
 }
 
 
@@ -161,7 +161,7 @@ void SearchMazeMovesTest2() {
     {"", "", "", "F", ""},
     {"S", "", "", "", ""},
   };
-    assertEquals(4, (int)method.invoke(null, new Object[]maze));
+    assertEquals(4, (int)method.invoke(null, new Object[]{maze}));
 }
 
 

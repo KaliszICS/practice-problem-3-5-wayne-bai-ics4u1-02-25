@@ -29,7 +29,7 @@ class Notes {
 		//go up - change row, moves
 
 		//return - minimum steps (or the valid steps)
-
+		return 0;
 	}
 
 
@@ -55,42 +55,5 @@ class Notes {
 
 
 
-	public static int dfsHelper(String[][] arr, int curRow, int curCol, int noOfMoves) {
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		//base case
-		//there isn't just one
-
-		//base case 1: When you go out of bounds
-
-		//base case 2: reach the finish
-		//check the value at a move and see if it is the finish
-
-
-		//recursive call to move right
-
-		//recursive call to move up
-
-		//compare and choose the pathway(noOfMoves) that was shorter
-		//ensure that the number you send back is a valid number.
-
-		//return the shorter pathway(noOfMoves)
-		
-	}
+	
 }
