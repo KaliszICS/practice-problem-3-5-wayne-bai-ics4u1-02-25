@@ -6,31 +6,58 @@ class Notes {
 
 	public static int dfs(String[][] arr) {
 
-		//start at the bottom left
-		int curRow = arr.length - 1; //last the row
-		int curCol = 0; //first column
+		//start - bottom left
+		int curRow = arr.length - 1;
+		int curCol = 0;
 
-		//keep track of number of moves
+		// keep track of number of steps
 		int noOfMoves = 0;
 
-		dfsHelper(arr, curRow, curCol, noOfMoves);
+		return dfsHelper(arr, noOfMoves, curRow, curCol);
 		
 	}
 
+	public static int dfsHelper(String[][] arr, int moves, int row, int col) {
+
+
+		// base case
+		// going out of bounds
+		// Reached the finish
+
+		//recursive call - more than one
+		//go right - change variables accordingly, col, moves
+		//go up - change row, moves
+
+		//return - minimum steps (or the valid steps)
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	public static int dfsHelper(String[][] arr, int curRow, int curCol, int noOfMoves) {
 
-		//base case
-		//going out of bounds (these are different for cols and rows)
-		//Reached the finish
-		//return (the finish and out of bounds are different)
-
-
-		// recursive call - increase no of moves
-		// go right (increase col)
-		// go up (decrease row)
-
-
-		//return the minimum steps (up and right)
+		
 		
 		
 		
