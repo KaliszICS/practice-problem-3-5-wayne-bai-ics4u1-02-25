@@ -3,15 +3,7 @@ public class PracticeProblem {
 	// Note as well that this solution is not very optimized, as it makes redundant 'backwards' checks. This can be remedied by storing the direction that the previous "search" call used, and not going in that direction.
 	// Note that this solution will trigger a stack overflow on large sets of data. To avoid this, change directions only when hitting an obstacle or border, instead of on every iteration.
 	
-	public static void main(String args[]) {
-		String[][] maze = {
-			{"", "", "", "F"},
-			{"", "", "", ""},
-			{"", "", "", ""},
-			{"S", "", "", ""},
-		  };
-		System.out.println(noOfPaths(maze));
-	}
+	public static void main(String args[]) {}
 
 	public static final String START = "S";
 	public static final String FINISH = "F";
